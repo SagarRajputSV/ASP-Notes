@@ -109,12 +109,17 @@
     <Content Include="CalendarControl.aspx" />
     <Content Include="CheckBoxListWithDirInfo.aspx" />
     <Content Include="CheckBoxUsage.aspx" />
+    <Content Include="CompareValidationForDropDown.aspx" />
+    <Content Include="ComparsionValidatorForGreaterThanOperator.aspx" />
+    <Content Include="ComparsionValidatorForPassword.aspx" />
+    <Content Include="ComparsionValidatorForPhoneNumber.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CustomValidation.aspx" />
     <Content Include="DatesDropDownList.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DisplayTimeInTextBox.aspx" />
@@ -137,6 +142,8 @@
     <Content Include="LinkButtonAndImageButton.aspx" />
     <Content Include="ListItem.aspx" />
     <Content Include="RadioButtonUsage.aspx" />
+    <Content Include="RangeValidator.aspx" />
+    <Content Include="RegularExpressionValidator.aspx" />
     <Content Include="RequiredFieldValidator.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -203,12 +210,47 @@
     <Compile Include="CheckBoxUsage.aspx.designer.cs">
       <DependentUpon>CheckBoxUsage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CompareValidationForDropDown.aspx.cs">
+      <DependentUpon>CompareValidationForDropDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompareValidationForDropDown.aspx.designer.cs">
+      <DependentUpon>CompareValidationForDropDown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ComparsionValidatorForGreaterThanOperator.aspx.cs">
+      <DependentUpon>ComparsionValidatorForGreaterThanOperator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComparsionValidatorForGreaterThanOperator.aspx.designer.cs">
+      <DependentUpon>ComparsionValidatorForGreaterThanOperator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ComparsionValidatorForPassword.aspx.cs">
+      <DependentUpon>ComparsionValidatorForPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComparsionValidatorForPassword.aspx.designer.cs">
+      <DependentUpon>ComparsionValidatorForPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ComparsionValidatorForPhoneNumber.aspx.cs">
+      <DependentUpon>ComparsionValidatorForPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComparsionValidatorForPhoneNumber.aspx.designer.cs">
+      <DependentUpon>ComparsionValidatorForPhoneNumber.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomValidation.aspx.cs">
+      <DependentUpon>CustomValidation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomValidation.aspx.designer.cs">
+      <DependentUpon>CustomValidation.aspx</DependentUpon>
     </Compile>
     <Compile Include="DatesDropDownList.aspx.cs">
       <DependentUpon>DatesDropDownList.aspx</DependentUpon>
@@ -269,6 +311,20 @@
     </Compile>
     <Compile Include="RadioButtonUsage.aspx.designer.cs">
       <DependentUpon>RadioButtonUsage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RangeValidator.aspx.cs">
+      <DependentUpon>RangeValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RangeValidator.aspx.designer.cs">
+      <DependentUpon>RangeValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegularExpressionValidator.aspx.cs">
+      <DependentUpon>RegularExpressionValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegularExpressionValidator.aspx.designer.cs">
+      <DependentUpon>RegularExpressionValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="RequiredFieldValidator.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
